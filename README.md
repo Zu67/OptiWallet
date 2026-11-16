@@ -13,6 +13,8 @@ The catalog includes Chase, Amex, Capital One, Citi, Discover, Wells Fargo, U.S.
 
 Dark mode follows the system theme until it is changed. The wallet, balances, credit checkoffs, and theme are stored in `localStorage`.
 
+The screen code is in `src/`. `src/constants.ts` is the card catalog. `src/components/` holds Overview, Strategy, My Wallet, Points, Credits, and the catalog screen.
+
 ```bash
 npm install
 npm run dev
