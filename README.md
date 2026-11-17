@@ -19,6 +19,8 @@ The screen code is in `src/`. `src/constants.ts` is the card catalog. `src/compo
 
 `vite.config.ts` sets the dev server to port 3000 and host `0.0.0.0`. It does not set `strictPort`. The React plugin is `@vitejs/plugin-react`, and `@` is aliased to `src`. `src/index.tsx` mounts with `React.StrictMode`. If `document.getElementById('root')` is missing, it throws `Could not find root element to mount to` before `createRoot`. `index.html` has `<div id="root"></div>`.
 
+`tsconfig.json` targets `ES2022`, uses `jsx` `react-jsx`, and sets `noEmit`. `strict` is not set. `experimentalDecorators` is true and `useDefineForClassFields` is false. `module` is `ESNext`, `moduleResolution` is `bundler`, and `allowImportingTsExtensions` is true. `lib` is `ES2022`, `DOM`, and `DOM.Iterable`. `types` lists only `node`. The path `@/*` maps to `./src/*`. `metadata.json` is not imported by the app. Its name is `OptiWallet`, its `requestFramePermissions` array is empty, and its description is "A comprehensive credit card portfolio manager to analyze annual fees, rewards multipliers, and spending strategy."
+
 ```bash
 npm install
 npm run dev
