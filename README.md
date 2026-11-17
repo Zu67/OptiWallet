@@ -9,7 +9,7 @@ The catalog includes Chase, Amex, Capital One, Citi, Discover, Wells Fargo, U.S.
 - **My Wallet.** Each selected card is drawn with the issuer, the card name, the annual fee or "NO FEE", and the same placeholder number, •••• •••• •••• 1234. Under that are the card's credits, the base rate, the first five category rates, and the perks. A category label replaces only the first underscore, so `travel_portal_hotel` is shown as "travel portal_hotel".
 - **Points.** Balances are grouped by the card's reward name and kept in this browser. The dollar estimate is the balance times that program's cents-per-point value, divided by 100. The header says the examples are 2.05¢ for Chase and Bilt and 2.0¢ for Amex. Cards that share a reward name in the catalog also share one cents-per-point value.
 - **Credits.** A checklist of the selected cards' statement credits. A dollar amount is read from a `$` figure in the credit text. The screen adds those amounts and the amounts whose boxes are checked. With no credits, it says "No Credits Available" and names Sapphire Reserve and Amex Platinum.
-- **Add Cards.** The catalog. With nothing selected, the app opens here.
+- **Add Cards.** The catalog. With nothing selected, the app opens here. Issuer sections start closed. The filter starts on Personal. Business is a card whose name contains "business", "ink", "spark", "corporate", or "biz". Search matches the card name or the issuer. No match says "No cards found".
 
 Dark mode follows the system theme until it is changed. The wallet, balances, credit checkoffs, and theme are stored in `localStorage`.
 
