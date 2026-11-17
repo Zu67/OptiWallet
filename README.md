@@ -17,6 +17,8 @@ The header labels are Overview, Strategy, My Wallet, Points, Credits, and Add Ca
 
 The screen code is in `src/`. `src/constants.ts` is the card catalog. `src/components/` holds Overview, Strategy, My Wallet, Points, Credits, and the catalog screen.
 
+`vite.config.ts` sets the dev server to port 3000 and host `0.0.0.0`. It does not set `strictPort`. The React plugin is `@vitejs/plugin-react`, and `@` is aliased to `src`. `src/index.tsx` mounts with `React.StrictMode`. If `document.getElementById('root')` is missing, it throws `Could not find root element to mount to` before `createRoot`. `index.html` has `<div id="root"></div>`.
+
 ```bash
 npm install
 npm run dev
