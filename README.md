@@ -1,6 +1,6 @@
 # OptiWallet
 
-Credit card optimization tracker. Cards you pick from the catalog are the wallet, and the app stores that choice in this browser.
+Credit card optimization tracker. Cards you pick from the catalog are the wallet, and the app stores that choice in this browser. The document title is "OptiWallet - Credit Card Dashboard". `package.json` names the package `optiwallet` at version `0.0.0`. `index.html` loads Tailwind from `https://cdn.tailwindcss.com` and maps `react`, `react-dom`, `lucide-react`, and `recharts` to `aistudiocdn.com` at the same version ranges as `package.json`: React `^19.2.0`, lucide-react `^0.555.0`, and recharts `^3.5.0`. The Tailwind config sets `slate.850` to `#151f32` and `slate.950` to `#020617`. No component uses `slate-850`.
 
 The catalog has 69 cards: Chase 18, Amex 14, Capital One 8, Citi 6, Bank of America 6, Barclays 6, Discover 4, US Bank 3, Wells Fargo 3, and Bilt 1. The issuer label is "US Bank", with no periods. A card record has an annual fee, category multipliers, a cents-per-point valuation, credits, perks, and transfer partners.
 
