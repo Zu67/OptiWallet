@@ -4,7 +4,7 @@ Credit card optimization tracker. Cards you pick from the catalog are the wallet
 
 The catalog includes Chase, Amex, Capital One, Citi, Discover, Wells Fargo, U.S. Bank, Bank of America, Barclays, and Bilt. A card record has an annual fee, category multipliers, a cents-per-point valuation, credits, perks, and transfer partners.
 
-- **Overview.** Card count, total annual fees, average point valuation, and the mix of issuers.
+- **Overview.** Card count, total annual fees, and the average cents-per-point value. A bar chart lists cards with an annual fee, highest first. A pie chart counts cards by issuer.
 - **Strategy.** The picker opens on Dining. The percent on a card is its multiplier times its cents-per-point number. The screen shows the highest and the next three. Dining uses a dining rate. Groceries uses `grocery` or `grocery_online`. Flights uses `travel_air`, or another travel rate whose name does not contain "portal". General Travel uses any rate whose name contains "travel", including portal rates. Gas uses `gas` or `rotating`. Amazon uses `amazon` or `grocery`. Hyatt uses a non-portal `hotel_hyatt`, `hotel`, or `travel_general` rate. Marriott uses a non-portal `hotel_marriott`, `hotel`, or `travel_general` rate. Rent uses a `rent` rate, and otherwise subtracts 3 from that percent. Online Groceries, the portal categories, Transit, Hilton, IHG, Hotels, and every remaining category use only the card's base rate.
 - **My Wallet.** The selected cards.
 - **Points.** Point balances, kept in this browser.
